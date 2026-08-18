@@ -1,74 +1,248 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Henry Mark - Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-        body {
-            font-family: Arial,sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 40px;
-            text-align: center;
-        }
+    <title>Henry Mark | Junior Web Designer</title>
 
-        h1 {
-            color: #222;
-            font-size: 45px;
-        }
-
-        h2 {
-            color: #0066cc;
-            margin-top: 30x;
-        }
-
-         p {
-            fontsize: 18px;
-            color: #555;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Henry Mark</h1>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <h2>Henry Mark</h2>
 
-    <h2>Junior Web Designer</h2>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
 
-    <p>Welcome to my portfolio website.</p>
 
-    <button>Contact Me</button>
-<h2>about me</h2>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
 
-<u1>
-    <1i>HTML</1i>
-    <1i>css</1i>
-    <1i>web design</1i>
-</u1>
-<h2>My projects</h2>
+        <div class="hero-content">
 
-<h3>
-    <a href="restaurant.html">Restaurant website</a>
-</h3>
+            <p class="small-title">HELLO, I'M</p>
 
-<p>A simple website for a restaurant.</p>
+            <h1>Henry Mark</h1>
 
-<h3>
-   <a href="profile.html">profile card</a>
-</h3>
+            <h2>Junior Web Designer</h2>
 
-<p>A simple personal profile card.</p>
+            <p class="intro">
+                I create clean, simple and responsive websites
+                using HTML and CSS.
+            </p>
 
-<h2>contact me</h2>
+            <div class="hero-buttons">
+                <a href="#projects" class="button">
+                    View My Work
+                </a>
 
-<p>Email:henmark568@gmail.com</p>
-<p>I'M available for website design projects.</p><h3>
-    <a href="restaurant.html">Restaurant Website</a>
-</h3> 
+                <a href="#contact" class="button secondary">
+                    Hire Me
+                </a>
+            </div>
 
-<p>
-   I am junior web designer learning how to create beautiful and responsive websites using HTML and css.
-</p>
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about">
+
+        <div class="section-container">
+
+            <p class="section-label">ABOUT ME</p>
+
+            <h2>Who I Am</h2>
+
+            <p class="section-text">
+                I'm a junior web designer passionate about building
+                clean, simple and user-friendly websites.
+            </p>
+
+            <p class="section-text">
+                I work with HTML and CSS and I'm currently expanding
+                my skills in JavaScript and responsive web design.
+            </p>
+
+            <p class="section-text">
+                My goal is to help individuals and small businesses
+                create professional websites for their online presence.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills">
+
+        <div class="section-container">
+
+            <p class="section-label">MY SKILLS</p>
+
+            <h2>What I Can Do</h2>
+
+            <div class="skills">
+
+                <div class="skill">
+                    <h3>HTML</h3>
+                    <p>
+                        Building clean and organized website
+                        structures.
+                    </p>
+                </div>
+
+                <div class="skill">
+                    <h3>CSS</h3>
+                    <p>
+                        Creating attractive and responsive
+                        website designs.
+                    </p>
+                </div>
+
+                <div class="skill">
+                    <h3>Web Design</h3>
+                    <p>
+                        Designing simple and user-friendly
+                        websites.
+                    </p>
+                </div>
+
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <p>
+                        Currently learning JavaScript to add
+                        interactive features.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects">
+
+        <div class="section-container">
+
+            <p class="section-label">MY WORK</p>
+
+            <h2>My Projects</h2>
+
+            <p class="section-text">
+                Here are some websites and projects I have
+                created while developing my web design skills.
+            </p>
+
+            <div class="projects">
+
+                <!-- Restaurant Project -->
+                <div class="project">
+
+                    <div class="project-content">
+
+                        <p class="project-number">01</p>
+
+                        <h3>Restaurant Website</h3>
+
+                        <p>
+                            A clean restaurant website featuring
+                            navigation, menu items, an About section
+                            and contact information.
+                        </p>
+
+                        <a href="restaurant.html" class="project-button">
+                            View Project →
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Profile Project -->
+                <div class="project">
+
+                    <div class="project-content">
+
+                        <p class="project-number">02</p>
+
+                        <h3>Profile Card</h3>
+
+                        <p>
+                            A simple and professional profile card
+                            created using HTML and CSS.
+                        </p>
+
+                        <a href="profile.html" class="project-button">
+                            View Project →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+
+        <div class="contact-box">
+
+            <p class="section-label">CONTACT ME</p>
+
+            <h2>Let's Work Together</h2>
+
+            <p>
+                Have a website idea or need a simple website
+                for your business? I'd love to help.
+            </p>
+
+            <a href="mailto:henmark568@gmail.com" class="button">
+                Contact Me
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Henry Mark. All Rights Reserved.
+        </p>
+
+        <p>
+            Junior Web Designer
+        </p>
+
+    </footer>
+
 
 </body>
 </html>
